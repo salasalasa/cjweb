@@ -1,0 +1,116 @@
+	body{
+		background:url(../images/demo1/bg.jpg) repeat center;
+		text-align: center;
+	}
+	.demoone-banner{
+		display: inline-block;
+		width: 600px;
+		height: 200px;
+		background:url(../images/demo1/95dd34aa4377fc9eb27c407ecec8839c.jpg) no-repeat;
+		margin-top: 20px;
+		vertical-align: bottom;
+	}
+	.demoone-nav{
+		background: #7b2a41;
+		width: 600px;
+		height: 20px;
+		margin:0px auto;
+	}
+	.demoone-nav>li{
+		display: inline-block;
+		line-height: 20px;
+		vertical-align: top;
+	}
+	.demoone-nav>li>a{
+		display:block;
+		font-size:12px;
+		text-decoration:none;
+		cursor: pointer;
+		height: 20px;
+		padding: 0px 30px;
+		color:#000;
+	}
+	.demoone-nav>li>a:link{
+		color: #330713;
+	}
+	.demoone-nav>li:hover{
+		background: #efcbe8;
+		color:#000;
+	}
+	.demoone-text{
+		display: none;
+		position: absolute;
+		left:50%;
+		margin-left:-300px;
+		width: 600px;
+		height: 300px;
+		background: #efcbe8;
+		text-align: left;
+	}
+	.demoone-text a:link{
+		color: #000;
+	}
+	.demoone-text a:visited{
+		color:#7b3ff3;
+	}
+	.demoone-text a:hover{
+		color:#000;
+		text-decoration: none;
+	}
+	.check{
+		display: block;
+	}
+	.demoone-text>h2{
+		font-size: 18px;
+		padding:10px 0px 0px 114px;
+	}
+	.demoone-text>p{
+		font-size:12px; 
+		padding: 10px 114px 0px 114px;
+	}
+	.demoone-text>p{
+		color: #65303a;
+	}
+	.demoone-img{
+		margin:10px 0px 0px 114px;
+		width: 150px;
+		height: 150px;
+		border-radius:75px;
+		overflow: hidden;
+		border: 1px solid #000;
+	}
+	.demoone-skill>li{
+		display: inline-block;
+		padding-left: 22px;
+		font-size: 12px;
+		color: #7b2a41;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.demoone-skill>li>a{
+		display: block;
+		color: #7b2a41;
+		text-decoration: none;
+	}
+	.demoone-skill>li>img{
+		width: 40px;
+		height: 40px;
+	}
+	.demoone-equ li{
+		margin-left: -3px;
+		margin:0px 114px;
+	}
+	.demoone-equ li img{
+		margin-left: -8px;
+		width: 40px;
+		height: 40px;
+		padding: 0px 20px;
+	}
+	.demoone-head-logo{
+		width: 178px;
+		height: 178px;
+		border:1px solid #CCC;
+		border-radius:89px;
+		overflow: hidden;
+		margin:20px 0px 0px 80px;
+	}

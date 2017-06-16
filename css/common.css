@@ -1,0 +1,98 @@
+﻿/*公共居中容器*/
+.public-container{
+	width:1000px;
+	margin:0px auto;
+	}
+#public-header{
+	height:80px;
+	color:#FFF;
+}
+.public-logo-container{
+	display:inline-block;
+	width:192px;
+	height:56px;
+	margin-top:12px;
+	overflow:hidden;
+}
+.public-nav{
+	float:right;
+	margin-top:34px;
+	*margin-top: -34px;
+	position: relative;
+}
+.public-nav a:hover{
+	text-decoration:none;
+	color:#CCC;
+}
+.public-nav-list{
+	float:left;
+	font-size:18px;
+	padding:0px 27px 0px 27px;
+	overflow: hidden;
+}
+.head-line{
+	display: block;
+	float: left;
+	width: 70px;
+	height: 2px;
+	background:#FFF;
+	opacity: 0.8;
+	position: absolute;
+	top: 30px;
+	left: 19px;
+}
+/*footer*/
+#public-footer{
+	height: 80px;
+	line-height: 80px;
+	color:#FFF;
+	text-align: center;
+	border-top:1px solid #FFF;
+}
+.public-copyright{
+	height: 14px;
+	font-size: 14px;
+	margin:0px auto;
+}
+.footer-logo{
+	float: right;
+}
+/*头像图标*/
+#monkey{
+	position:absolute;
+	left: 1000px;top:200px;
+	z-index:9999;
+}
+/*页面跳转*/
+.jump-index{
+	height: 40px;
+	width: 1000px;
+	border-bottom: 1px solid #FFF;
+}
+.jump-panel>a:hover{
+	text-decoration: none;
+}
+.jump-panel-l>a{
+	background: #6b72d4;
+}
+.jump-panel-r>a{
+	background: #9eb9d4;
+	color: #000;
+}
+.jump-panel-l>a,.jump-panel-r>a{
+	display: block;
+	width: 98px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	float: right;
+}
+.jump-panel-l>a:hover{
+	background: #cAc;
+	color:#000;
+}
+.jump-panel-r>a:hover{
+	background: #cBc;
+	color:#FFF;
+}

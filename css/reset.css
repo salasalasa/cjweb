@@ -1,0 +1,19 @@
+body,h1,h2,h3,h4,h5,h6,dl,dd,dt,ol,ul,li,th,td,p,blockquote,pre,form,input,textarea, fieldset,legend,button,hr{margin:0px; padding:0px;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+body{font-family:Microsoft Yahei,sans-serif;font-weight:bold;background: url(../images/commonimg/background.png) no-repeat 0px 0px; background-color:#345}
+li{list-style:none;}
+fieldset,img{border:0px;}
+table{border-collapse:collapse;border-spacing:0px;}
+q:before,q:after{content:"";}
+button,input,select,textarea{font-size:100%;}
+legend{color:#000;}
+small{font-size:12px}
+hr{border:none; height:1px;}
+a{text-decoration:none;}
+a:link{color: #FFF;}
+a:visited{color:#FFF;}
+a:hover{text-decoration:underline;}
+a:active{color: #FFF}
+a{cursor:pointer;}
+.cle:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clear {clear: both;}

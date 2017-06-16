@@ -1,0 +1,169 @@
+﻿#aboutme-body{
+	color: #FFF;
+}
+/*公用样式h2*/
+#aboutme-body h2{
+	color: #C1CCDC;
+	width: 1000px;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 30px;
+}
+/*公用样式下划线*/
+.aboutme-h2-line{
+	width: 0px;
+	height: 2px;
+	background: #426dbc;
+	margin:0px auto;
+	margin-top: 10px;
+}
+.aboutme-head-logo{
+	height: 280px;
+	width: 1000px;
+	overflow: hidden;
+	position: relative;
+}
+.aboutme-head-logo>a{
+	display: block;
+	text-align: center;
+	width: 176px;
+	height: 176px;
+	border-radius: 88px;
+	margin:0px auto;
+	margin-top:100px;
+	position: relative;
+	overflow: hidden;
+	left: 0px;
+	top: -300px;
+}
+.aboutme-head-cover{
+	height: 100px;
+	width: 178px;
+	background: #000;
+	opacity: 0.6;
+	position: absolute;
+	top: 200px;
+	line-height: 50px;
+}
+.aboutme-head>span{
+	width: 1000px;
+	display: inline-block;
+	margin-top: 54px;
+	text-align: center;
+}
+.aboutme-head>span>p{
+	margin: 0px auto;
+}
+.aboutme-head>span>p>strong{
+	color: #ff7777;
+}
+.aboutme-head-decoration-box{
+	width: 1000px;
+}
+.aboutme-head-decoration{
+	width: 0px;
+	height: 2px;
+	margin-top: 20px;
+	background: #CCC;
+}
+.aboutme-intr-box{
+	width: 300px;
+	height: 300px;
+	margin:15px auto;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+.aboutme-intr-box>li{
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 30px;
+	position: relative;
+}
+.aboutme-intr-box>li>a:hover{
+	text-decoration: none;
+}
+.aboutme-intr-box>li>strong{
+	color: #5f9cef;
+}
+.aboutme-intr-box>li>b{
+	color: #e0ef5f;
+}
+.aboutme-profile{
+	text-align: center;
+	vertical-align: bottom;
+}
+.aboutme-profile>span{
+	display: inline-block;
+	margin: 62px 27px 0px 27px;
+	*display: inline;
+    *zoom:1;
+}
+.profile-text-box{
+	position: relative;
+	width: 614px;
+	margin:0px auto;
+	margin-top: 70px;
+	text-align: left;
+	font-size: 24px;
+}
+.profile-text-box>p{
+	padding:0px 27px;
+}
+.profile-text-box-line-l{
+	position: absolute;
+	top: -20px;
+}
+.profile-text-box-line-r{
+	position: absolute;
+	font-size: 0px;
+	right: 0px;
+	bottom: -20px;
+}
+.aboutme-skill{
+	height: 280px;
+	margin-top: 30px;
+	text-align: center;
+}
+.aboutme-skill-img{
+	opacity: 0;
+	width:60px;
+	height: 120px;
+	margin:60px 40px 0px 40px;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: bottom;
+	*display: inline;
+    *zoom:1;
+}
+.aboutme-skill-img>a{
+	display: inline-block;
+	width: 60px;
+	height: 90px;
+	vertical-align: bottom;
+	*display: inline;
+    *zoom:1;
+}
+.aboutme-skill-img>a:hover{
+	text-decoration: none;
+}
+.aboutme-skill p{
+	width: 60px;
+	bottom: 0px;
+	margin:0px auto;
+	color: #5f9cef;
+}
+.aboutme-demo{
+	text-align: center;
+}
+.aboutme-demo-box{
+	display: inline-block;
+	width: 166px;
+	height: 148px;
+	margin: 40px 20px 20px 20px;
+	border:2px solid #5f9cef;
+	border-radius: 20px;
+	overflow: hidden;
+	*display: inline;
+    *zoom:1;
+}
